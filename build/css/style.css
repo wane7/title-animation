@@ -7,14 +7,15 @@ body {
    
 }
 
-#logo {
-    animation: fill 0.2s ease forwards 3.5s;
+#logo  {
+    height: 100vh;
 }
 
 #logo path:nth-child(0){
     stroke-dasharray:  272.93511962890625;
     stroke-dashoffset:  272.93511962890625;
     animation: line-animation 1s ease forwards 0.1s;
+    
 }
 
 
@@ -110,7 +111,7 @@ body {
 #logo path:nth-child(15){
     stroke-dasharray:  235.35519409179688;
     stroke-dashoffset:  235.35519409179688;
-    animation: line-animation 32s ease forwards 0.24s;
+    animation: line-animation 32s ease forwards 0.30s;
 }
 
 #logo path:nth-child(16){
@@ -192,7 +193,7 @@ body {
 #logo path:nth-child(27){
     stroke-dasharray:  263.38568115234375;
     stroke-dashoffset:  263.38568115234375;
-    animation: line-animation 58s ease forwards 0.28s;
+    animation: line-animation 58s ease forwards 0.58s;
     
 }
 
@@ -213,7 +214,7 @@ body {
 #logo path:nth-child(30){
     stroke-dasharray:  257.9520263671875;
     stroke-dashoffset:  257.9520263671875;
-    animation: line-animation 64s ease forwards 0.28s;
+    animation: line-animation 64s ease forwards 0.78s;
     
 }
 
@@ -226,8 +227,3 @@ body {
     }
 }
 
-@keyframes fill {
-    to {
-        fill: whitesmoke;
-    }
-}
